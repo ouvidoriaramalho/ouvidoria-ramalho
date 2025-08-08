@@ -1,0 +1,84 @@
+/* Seção Sobre */
+.sobre-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  gap: 50px;
+}
+
+.sobre-texto {
+  flex: 1.2;
+}
+
+.sobre-texto h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.sobre-texto h1 span {
+  color: #3a3a3a;
+}
+
+.sobre-texto p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.sobre-imagem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-imagem img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Pilares */
+.pilares {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #3a3a3a; 
+  padding: 25px;
+  border-radius: 20px;
+  width: 250px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ddd;
+}

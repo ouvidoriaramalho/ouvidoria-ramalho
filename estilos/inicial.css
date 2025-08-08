@@ -1,0 +1,19 @@
+/* Seção principal */
+#img_ouvidoria{
+    width: 550px;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+#rodape{
+    text-align: left;
+}
+
+#rodape p {
+    font-size: .9em;
+    margin: 3px;    
+}
+
+#rodape p:first-child {
+    font-size: 1.4em;
+}

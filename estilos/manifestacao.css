@@ -1,0 +1,38 @@
+/* Painel de manifestação - Seção Principal */
+.painel-manifestacao {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 24px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    width: 90%;
+    max-width: 400px;
+}
+
+.painel-manifestacao h2 {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.painel-manifestacao a {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #999;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.painel-manifestacao a:hover {
+    background-color: #777;
+}
