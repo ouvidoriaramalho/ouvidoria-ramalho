@@ -1,0 +1,116 @@
+/* Caixa de login */
+.form-box {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 30px 40px;
+  border-radius: 25px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  width: 440px;
+  margin: 0 auto;
+}
+
+.form-box h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Campos */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+input[type="email"],
+input[type="password"] {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 6px;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+/* Links extras */
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgot-link,
+.register-link {
+  color: #ffffff;
+  font-size: 13px;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+.forgot-link:hover,
+.register-link:hover {
+  color: #ccc;
+}
+
+/* Botões principais */
+.btn-submit,
+.btn-back {
+  margin-top: 15px;
+  background-color: #5a5a5a;
+  color: white;
+  border: none;
+  padding: 12px;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+.btn-back {
+  background-color: #333;
+}
+
+/* Botões sociais */
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-google,
+.btn-facebook {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-google img,
+.btn-facebook img {
+  height: 25px;
+  border-radius: 50%;
+}
+
+.btn-google {
+  background-color: #d43b2d;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}

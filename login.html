@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Ouvidoria Ramalho</title>
+  <link rel="stylesheet" href="estilos/padrao.css">
+  <link rel="stylesheet" href="estilos/login.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+</head>
+<body>
+  <header>
+      <a href="inicial.html"><img src="https://anadeb.org.br/wp-content/uploads/2023/05/20220928091439_Ouvidoria.jpg" alt="Logo Ouvidoria Ramalho" class="logo"></a>
+      <nav class="menu">
+      <ul>
+          <li><a href="sobre.html">Sobre a Ouvidoria</a></li>
+          <li><a href="manifestacao.html">Registrar Manifestação</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Acessibilidade</a></li>
+      </ul>
+      </nav>
+      <div class="busca-login">
+      <div class="login">
+          <a href="login.html"><strong>Entrar</strong>        <span class="material-symbols-outlined">person</span></a>
+      </div>
+      <div class="campo-busca">
+          <input type="text" placeholder="O que você procura?...">
+          <span class="material-symbols-outlined">search</span>
+      </div>
+      </div>
+  </header>
+
+  <main>
+    <!-- Caixa de login -->
+    <section class="form-box">
+      <h2>Login</h2>
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" required>
+
+        <div class="links">
+          <a href="#" class="forgot-link">Esqueci minha senha</a>
+          <a href="cadastro.html" class="register-link">Não sou registrado</a>
+        </div>
+
+        <button type="submit" class="btn-submit">Entrar</button>
+
+        <div class="social-login">
+          <button type="button" class="btn-google">
+            <img src="img/icon-google.png" alt=""> Entrar com Google
+          </button>
+          <button type="button" class="btn-facebook">
+            <img src="img/icon-facebook.png" alt=""> Entrar com Facebook
+          </button>
+        </div>
+
+        <a href="inicial.html" class="btn-back">Voltar à página inicial</a>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

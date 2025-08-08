@@ -1,0 +1,38 @@
+.mensagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.mensagem-box {
+    background-color: #3a3a3a;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    max-width: 500px;
+}
+
+.mensagem-box p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: #777;
+}
