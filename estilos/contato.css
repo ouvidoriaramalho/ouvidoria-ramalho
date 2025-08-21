@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#dados-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#dados-contato div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+#dados-contato div span {
+    background-color: rgb(94, 94, 94);
+    color: rgb(189, 189, 189);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 2.3em;
+}
+
+#dados-contato div p {
+    font-weight: bold;
+}
+
+#dados-contato div p a {
+    color: black;
+}
+
+#caixa-texto {
+    max-width: 500px;
+}
+
+#caixa-texto p {
+    margin: 20% 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
