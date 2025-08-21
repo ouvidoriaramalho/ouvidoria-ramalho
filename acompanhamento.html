@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Acompanhe sue Manifestação</title>
+  <title>Acompanhe sua Manifestação</title>
   <link rel="stylesheet" href="estilos/acompanhamento.css"/>
   <link rel="stylesheet" href="estilos/padrao.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
@@ -17,7 +17,7 @@
       <li><a href="sobre.html">Sobre a Ouvidoria</a></li>
       <li><a href="manifestacao.html">Registrar Manifestação</a></li>
       <li><a href="contato.html">Contato</a></li>
-      <li class="ativo"><a href="acompanhamento.html">Acompanhamento</a></li>
+      <li class="ativo"><a href="consulta.html">Acompanhamento</a></li>
     </ul>
     </nav>
     <div class="busca-login">
@@ -32,17 +32,46 @@
   </header>
 
   <main>
-    <form class="form-container">
-        <h1>Acompanhe sua Manifestação</h1>
+    <div class="consulta-container">
+        <h1>Protocolo: 0000-AB</h1>
 
-        <p>Digite o número do protocolo para verificar o andamento da sua manifestação.</p>
+        <div class="conteudo-container">
+          <div id="atributos">
+            <div id="status">
+              <h1>Status:</h1>
+              <p>Em Análise</p>
+            </div>
+            <div id="assunto">
+              <h1>Assunto:</h1>
+              <p>Problema com a coleta de lixo</p>
+            </div> 
+            <div id="data-envio">
+              <h1>Data de Envio:</h1>
+              <p>10/10/2025</p>
+            </div>
+            <div id="ultimo-update">
+              <h1>Última Atualização:</h1>
+              <p>15/10/2025</p>
+            </div>
+            <div id="descricao">
+              <h1>Descrição:</h1>
+              <p>Sua Manifestação foi recebida e está sendo analisada pela equipe responsável.</p>
+            </div>
+          </div>
 
-        <label for="in-protocolo">Número de Protocolo:</label>
-        <input type="text" name="protocolo" id="in-protocolo" placeholder="Ex.: 0000-AB" required>
+          <div id="historico">
+            <h1>Histórico de alterações</h1>
+            <div id="historico-eventos">
+              <p>10/10/2025 - Manifestação registrada</p>
+              <p>12/10/2025 - Encaminhada para o setor de Obras</p>
+              <p>15/10/2025 - Resposta do setor de Obras: o reparo será agendado</p>
+            </div>
+          </div>
+        </div>
+        
 
-        <a href="consulta.html" class="btn-submit">Consultar</a>
         <a href="inicial.html" class="btn-voltar">Voltar à página inicial</a>
-    </form>
+    </div>
   </main>
 
   <footer id="rodape">
