@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Registrar Reclamação - Ouvidoria Ramalho</title>
-  <link rel="stylesheet" href="estilos/reclamacao.css"/>
+  <title>Acompanhe sua Manifestação</title>
+  <link rel="stylesheet" href="estilos/consulta.css"/>
   <link rel="stylesheet" href="estilos/padrao.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
   <link rel="shortcut icon" href="img/logo_ouvidoria.ico" type="image/x-icon">
@@ -15,9 +15,9 @@
     <nav class="menu">
     <ul>
       <li><a href="sobre.html">Sobre a Ouvidoria</a></li>
-      <li class="ativo"><a href="manifestacao.html">Registrar Manifestação</a></li>
+      <li><a href="manifestacao.html">Registrar Manifestação</a></li>
       <li><a href="contato.html">Contato</a></li>
-      <li><a href="consulta.html">Acompanhamento</a></li>
+      <li class="ativo"><a href="consulta.html">Acompanhamento</a></li>
     </ul>
     </nav>
     <div class="busca-login">
@@ -33,28 +33,15 @@
 
   <main>
     <form class="form-container">
-      <h1>Registre sua Reclamação</h1>
+        <h1>Acompanhe sua Manifestação</h1>
 
-      <label for="categoria">Categoria:</label>
-      <input type="text" id="categoria" placeholder="(ex: Atendimento, Produto, Serviço, etc.)" required>
+        <p>Digite o número do protocolo para verificar o andamento da sua manifestação.</p>
 
-      <label for="data">Data:</label>
-      <input type="date" id="data" placeholder="00/00/0000" required>
+        <label for="in-protocolo">Número de Protocolo:</label>
+        <input type="text" name="protocolo" id="in-protocolo" placeholder="Ex.: 0000-AB" required>
 
-      <label for="descricao">Descrição:</label>
-      <textarea id="descricao" rows="5" required></textarea>
-      
-      <div class="anexo-container">
-        <input type="file" id="btn-anexar" name="anexar">
-        <label for="btn-anexar">Anexar</label>
-      </div>
-
-      <div class="protocolo">
-        <p>Número de protocolo: ######</p>
-      </div>
-
-      <button type="submit" class="btn-submit">Registrar reclamação</button>
-      <a href="inicial.html" class="btn-voltar">Voltar à página inicial</a>
+        <a href="acompanhamento.html" class="btn-submit">Consultar</a>
+        <a href="inicial.html" class="btn-voltar">Voltar à página inicial</a>
     </form>
   </main>
 

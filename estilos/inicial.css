@@ -1,19 +1,45 @@
 /* Seção principal */
-#img_ouvidoria{
-    width: 550px;
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+#caixa-imagem img {
+    width: 100%;
+    max-width: 550px;
+    border: 1px solid black;
     border-radius: 10px;
 }
 
-/* Rodapé */
-#rodape{
-    text-align: left;
+#caixa-imagem p {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
 }
 
-#rodape p {
+#caixa-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#caixa-texto > p {
+    margin-top: 100px;
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1.5em;
+    max-width: 350px;
+    text-align: center;
+}
+
+#caixa-texto .dados-ouvidoria p {
     font-size: .9em;
     margin: 3px;    
 }
 
-#rodape p:first-child {
-    font-size: 1.4em;
+#caixa-texto .dados-ouvidoria p:first-child {
+    font-size: 1.3em;
 }
