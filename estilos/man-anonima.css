@@ -97,7 +97,8 @@
 }
 
 .btn-submit {
-    margin-top: 20px;
+    display: block;
+    margin: 20px auto;
     width: 100%;
     padding: 10px;
     border: none;
@@ -107,6 +108,8 @@
     font-weight: 700;
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 .btn-submit:hover {

@@ -15,13 +15,15 @@ body {
 header {
   background: linear-gradient(to right, #bfbfbf, #eeeeee);
   padding: 20px 40px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.308);
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -143,7 +145,7 @@ main {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.329);
   padding: 20px;
 }
 
@@ -155,6 +157,6 @@ footer {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.404);
   padding: 20px;
 }
