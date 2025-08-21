@@ -116,7 +116,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 6px;
   font-weight: bold;
   color: #333;
   font-size: 1.5em;
@@ -126,13 +125,17 @@ header {
 .login a {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
   text-decoration: none;
   color: black;
 }
 
 .login span {
-  font-size: 2.3em;
+  background-color: rgb(56, 56, 56);
+  color: rgb(255, 255, 255);
+  padding: 4px;
+  border-radius: 50%;
+  font-size: 2em;
 }
 
 main {
