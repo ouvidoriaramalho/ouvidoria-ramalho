@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Acompanhe sua Manifestação</title>
+  <link rel="stylesheet" href="estilos/consulta.css"/>
+  <link rel="stylesheet" href="estilos/padrao.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+  <link rel="shortcut icon" href="img/logo_ouvidoria.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <a href="inicial.html"><img src="img/logo_ouvidoria.png" alt="Logo Ouvidoria Ramalho" class="logo"></a>
+    <nav class="menu">
+    <ul>
+      <li><a href="sobre.html">Sobre a Ouvidoria</a></li>
+      <li><a href="manifestacao.html">Registrar Manifestação</a></li>
+      <li><a href="contato.html">Contato</a></li>
+      <li class="ativo"><a href="consulta.html">Acompanhamento</a></li>
+    </ul>
+    </nav>
+    <div class="busca-login">
+    <div class="login">
+      <a href="login.html"><strong>Entrar</strong>        <span class="material-symbols-outlined">person</span></a>
+    </div>
+    <div class="campo-busca">
+      <input type="text" placeholder="O que você procura?...">
+      <span class="material-symbols-outlined">search</span>
+    </div>
+    </div>
+  </header>
+
+  <main>
+    <form class="form-container">
+        <h1>Acompanhe sua Manifestação</h1>
+
+        <p>Digite o número do protocolo para verificar o andamento da sua manifestação.</p>
+
+        <label for="in-protocolo">Número de Protocolo:</label>
+        <input type="text" name="protocolo" id="in-protocolo" placeholder="Ex.: 0000-AB" required>
+
+        <a href="acompanhamento.html" class="btn-submit">Consultar</a>
+        <a href="inicial.html" class="btn-voltar">Voltar à página inicial</a>
+    </form>
+  </main>
+
+  <footer id="rodape">
+    <p>&copy; Ouvidoria Ramalho - Seu direito reservado</p>
+  </footer>
+</body>
+</html>
