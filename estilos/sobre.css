@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 60px 80px;
   gap: 50px;
 }
@@ -35,7 +36,8 @@
 }
 
 .sobre-imagem img {
-  max-width: 100%;
+  min-width: 320px;
+  width: 100%;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
